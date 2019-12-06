@@ -4,35 +4,41 @@
     font-style: normal;
     src: url("assets/FuturaDemiC.woff") format("woff");
 }
+
 @font-face {
     font-family: "FuturaBookC";
     font-weight: normal;
     font-style: normal;
     src: url("assets/FuturaBookC.woff") format("woff");
 }
+
 @font-face {
     font-family: "FuturaMediumC";
     font-weight: normal;
     font-style: normal;
     src: url("assets/FuturaMediumC.woff") format("woff");
 }
+
 @font-face {
     font-family: "ProximaNova";
     font-weight: normal;
     font-style: normal;
     src: url("assets/ProximaNova-Regular.woff") format("woff");
 }
+
 @font-face {
     font-family: "YesevaOne";
     font-weight: normal;
     font-style: normal;
     src: url("assets/YesevaOne.woff") format("woff");
 }
+
 %font-option {
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
 }
+
 %font-project-head {
     font-family: "YesevaOne";
     font-style: normal;
@@ -40,6 +46,7 @@
     text-transform: uppercase;
     color: #E3B873;
 }
+
 %font-project-descr {
     font-family: "FuturaBookC";
     font-style: normal;
@@ -49,6 +56,7 @@
     line-height: 20px;
     color: #FFFFFF;
 }
+
 %font-styles-links {
     font-family: "ProximaNova";
     font-style: normal;
@@ -58,15 +66,19 @@
     color: #FFFFFF;
 
 }
+
 h2 {
     font-weight: normal; 
 }
+
 a {
     text-decoration: none;
 }
+
 header {
     text-align: center;
 }
+
 .nav {
     &__menu {
         &_link {
@@ -93,6 +105,7 @@ header {
         color: #E3B873;
     }
 }
+
 .instagram__link {
     @extend %font-option;
     color: #E3B873;
@@ -100,6 +113,7 @@ header {
     font-style: normal;
     font-weight: 600;
 }
+
 .description {
     font-family: "YesevaOne";
     font-style: normal;
@@ -135,6 +149,7 @@ header {
         }
     }   
 }
+
 .scroll-down__button {
     font-family: "YesevaOne";
     font-style: normal;
@@ -237,6 +252,7 @@ header {
         }
     }
 }
+
 .repairs {
     &__types {
         &_text {
@@ -268,82 +284,84 @@ header {
             }
         }
     }
-    &__request {
-        &_advantages_stages_stage {
-            &_num {
-                font-family: "Yeseva One";
+}
+
+.request {
+    .stages__stage {
+        &_num {
+            font-family: "Yeseva One";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        &_text {  
+            font-family: "FuturaMediumC";
+            font-size: 18px;
+            line-height: 21px;
+            color: #363636;
+        }
+    }
+    &__form {
+        &_blank {
+            &_head {
+                font-family: "FuturaDemiC";
                 font-style: normal;
-                font-weight: normal;
-                font-size: 18px;
+                font-weight: 600;
+                font-size: 20px;
                 line-height: 25px;
                 text-align: center;
                 color: #FFFFFF;
             }
-            &_text {  
+            input {
                 font-family: "FuturaMediumC";
                 font-size: 18px;
-                line-height: 21px;
-                color: #363636;
+                line-height: 25px;
+                color: #FFFFFF
+            }
+            input::placeholder {
+                font-family: "FuturaMediumC";
+                font-size: 18px;
+                line-height: 25px;
+                color: #FFFFFF
             }
         }
-        &_form {
-            &_blank {
-                &_head {
-                    font-family: "FuturaDemiC";
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 20px;
-                    line-height: 25px;
-                    text-align: center;
-                    color: #FFFFFF;
-                }
-                &_inputs {
-                    &_label {
-                        @extend %font-project-descr;
-                        color: rgba(255, 255, 255, 0.5);
-                        &-agree {
-                            @extend %font-project-descr;
-                            font-size: 16px;
-                            line-height: 22px;
-                        }
-                    }
-                    &_button_submit {
-                        font-family: "FuturaDemiC";
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 13px;
-                        line-height: 18px;
-                        text-transform: uppercase;
-                        color: #FFFFFF;
-                    }
-                }
-                input {
-                    font-family: "FuturaMediumC";
-                    font-size: 18px;
-                    line-height: 25px;
-                    color: #FFFFFF
-                }
-                input::placeholder {
-                    font-family: "FuturaMediumC";
-                    font-size: 18px;
-                    line-height: 25px;
-                    color: #FFFFFF
-                }
-            }
-            &_save {
-                &_text {
-                    font-family: "FuturaDemiC";
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 20px;
-                    line-height: 25px;
-                    color: #E3B873;
-                    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
-                }
+        &_save {
+            &_text {
+                font-family: "FuturaDemiC";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 25px;
+                color: #E3B873;
+                text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
             }
         }
     }
+    &__inputs {
+        &_label {
+            @extend %font-project-descr;
+            color: rgba(255, 255, 255, 0.5);
+            &-agree {
+                @extend %font-project-descr;
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+        &_button_submit {
+            font-family: "FuturaDemiC";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 18px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
 }
+
 .styles__container {
     &_list {
         &_head {
@@ -359,6 +377,7 @@ header {
         }
     }
 }
+
 .design-project {
     &__descr {
         &_text {
@@ -407,6 +426,7 @@ header {
         }
     }
 }
+
 .steps {
     &__container {
         &_descr {
@@ -460,49 +480,50 @@ header {
             }
         }
     }
-    .team {
-        &__types {
-            &_text {
-                @extend %font-project-head;
-                font-size: 20px;
-                line-height: 28px;
-                color: #FFFFFF;
-            }
-            &_container_descr {
-                @extend %font-project-descr;
-                font-size: 20px;
-                line-height: 27px;
-                text-align: center;
-            }
+}
+
+.team {
+    &__types {
+        &_text {
+            @extend %font-project-head;
+            font-size: 20px;
+            line-height: 28px;
+            color: #FFFFFF;
         }
-        &__members_container_block_person {
-            &_descr {
-                &_name {
-                    @extend %font-project-head;
-                    font-size: 18px;
-                    line-height: 25px;
-                    color: #181818;
-                }
-                &_pos {
-                    @extend %font-project-descr;
-                    font-size: 18px;
-                    line-height: 26px;
-                    color: #959595;
-                }
-            }
-            &_exp {
-                @extend %font-project-head;
-                font-size: 13px;
-                line-height: 20px;
-                color: #FFFFFF;
-            }
-        }
-        &__descr_text {
+        &_container_descr {
             @extend %font-project-descr;
             font-size: 20px;
-            line-height: 34px;
-            color: #363636;
+            line-height: 27px;
+            text-align: center;
         }
+    }
+    .persons {
+        &__descr {
+            &_name {
+                @extend %font-project-head;
+                font-size: 18px;
+                line-height: 25px;
+                color: #181818;
+            }
+            &_pos {
+                @extend %font-project-descr;
+                font-size: 18px;
+                line-height: 26px;
+                color: #959595;
+            }
+        }
+        &__exp {
+            @extend %font-project-head;
+            font-size: 13px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+    }
+    &__descr_text {
+        @extend %font-project-descr;
+        font-size: 20px;
+        line-height: 34px;
+        color: #363636;
     }
 }
 
@@ -550,39 +571,40 @@ header {
             color: #FFFFFF;
         }
         &__inputs {
-                &_label {
+            &_label {
+                @extend %font-project-descr;
+                color: rgba(255, 255, 255, 0.5);
+                &_agree {
                     @extend %font-project-descr;
-                    color: rgba(255, 255, 255, 0.5);
-                    &_agree {
-                        @extend %font-project-descr;
-                        font-size: 16px;
-                        line-height: 22px;
-                    }
-                }
-                &_button_submit {
-                    font-family: "FuturaDemiC";
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 13px;
-                    line-height: 18px;
-                    text-transform: uppercase;
-                    color: #FFFFFF;
+                    font-size: 16px;
+                    line-height: 22px;
                 }
             }
-            input {
-                font-family: "FuturaMediumC";
-                font-size: 18px;
-                line-height: 25px;
-                color: #FFFFFF
+            &_button_submit {
+                font-family: "FuturaDemiC";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 18px;
+                text-transform: uppercase;
+                color: #FFFFFF;
             }
-            input::placeholder {
-                font-family: "FuturaMediumC";
-                font-size: 18px;
-                line-height: 25px;
-                color: #FFFFFF
-            }
+        }
+        input {
+            font-family: "FuturaMediumC";
+            font-size: 18px;
+            line-height: 25px;
+            color: #FFFFFF
+        }
+        input::placeholder {
+            font-family: "FuturaMediumC";
+            font-size: 18px;
+            line-height: 25px;
+            color: #FFFFFF
+        }
     }
 }
+
 .address__container_info_descr {
     font-family: "YesevaOne";
     font-style: normal;

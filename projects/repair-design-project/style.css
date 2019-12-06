@@ -39,7 +39,7 @@
   text-transform: uppercase;
 }
 
-.projects .completed__par, .projects .completed .work__head, .projects .cities__city_link, .online__text, .repairs__types_text, .repairs__types_designs_name_price, .styles__container_list_head, .design-project__types_text, .design-project__types_designs_name_price, .steps__container_descr_working_header, .steps__container_descr_block_page, .steps__container_descr_block_header, .steps .team__types_text, .steps .team__members_container_block_person_descr_name, .steps .team__members_container_block_person_exp, .clients__types_text, .clients__reviews_container_user_name, .clients__reviews_container_user_type, .clients .ask__head {
+.projects .completed__par, .projects .completed .work__head, .projects .cities__city_link, .online__text, .repairs__types_text, .repairs__types_designs_name_price, .styles__container_list_head, .design-project__types_text, .design-project__types_designs_name_price, .steps__container_descr_working_header, .steps__container_descr_block_page, .steps__container_descr_block_header, .team__types_text, .team .persons__descr_name, .team .persons__exp, .clients__types_text, .clients__reviews_container_user_name, .clients__reviews_container_user_type, .clients .ask__head {
   font-family: "YesevaOne";
   font-style: normal;
   font-weight: normal;
@@ -47,7 +47,7 @@
   color: #E3B873;
 }
 
-.projects .completed__text, .projects .completed .work__head_descr, .online__descr_text, .online__form input, .online__form input::-webkit-input-placeholder, .online__form_label, .online__form_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text, .steps .team__types_container_descr, .steps .team__members_container_block_person_descr_pos, .steps .team__descr_text, .clients__reviews_container_user_review, .clients .ask__inputs_label, .clients .ask__inputs_label_agree {
+.projects .completed__text, .projects .completed .work__head_descr, .online__descr_text, .online__form input, .online__form input::-webkit-input-placeholder, .online__form_label, .online__form_agree label, .repairs__types_designs_name li, .request__inputs_label, .request__inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text, .team__types_container_descr, .team .persons__descr_pos, .team__descr_text, .clients__reviews_container_user_review, .clients .ask__inputs_label, .clients .ask__inputs_label_agree {
   font-family: "FuturaBookC";
   font-style: normal;
   font-weight: normal;
@@ -57,7 +57,7 @@
   color: #FFFFFF;
 }
 
-.projects .completed__text, .projects .completed .work__head_descr, .online__descr_text, .online__form input, .online__form input:-ms-input-placeholder, .online__form_label, .online__form_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text, .steps .team__types_container_descr, .steps .team__members_container_block_person_descr_pos, .steps .team__descr_text, .clients__reviews_container_user_review, .clients .ask__inputs_label, .clients .ask__inputs_label_agree {
+.projects .completed__text, .projects .completed .work__head_descr, .online__descr_text, .online__form input, .online__form input:-ms-input-placeholder, .online__form_label, .online__form_agree label, .repairs__types_designs_name li, .request__inputs_label, .request__inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text, .team__types_container_descr, .team .persons__descr_pos, .team__descr_text, .clients__reviews_container_user_review, .clients .ask__inputs_label, .clients .ask__inputs_label_agree {
   font-family: "FuturaBookC";
   font-style: normal;
   font-weight: normal;
@@ -67,7 +67,7 @@
   color: #FFFFFF;
 }
 
-.projects .completed__text, .projects .completed .work__head_descr, .online__descr_text, .online__form input, .online__form input::-ms-input-placeholder, .online__form_label, .online__form_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text, .steps .team__types_container_descr, .steps .team__members_container_block_person_descr_pos, .steps .team__descr_text, .clients__reviews_container_user_review, .clients .ask__inputs_label, .clients .ask__inputs_label_agree {
+.projects .completed__text, .projects .completed .work__head_descr, .online__descr_text, .online__form input, .online__form input::-ms-input-placeholder, .online__form_label, .online__form_agree label, .repairs__types_designs_name li, .request__inputs_label, .request__inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text, .team__types_container_descr, .team .persons__descr_pos, .team__descr_text, .clients__reviews_container_user_review, .clients .ask__inputs_label, .clients .ask__inputs_label_agree {
   font-family: "FuturaBookC";
   font-style: normal;
   font-weight: normal;
@@ -77,7 +77,7 @@
   color: #FFFFFF;
 }
 
-.projects .completed__text, .projects .completed .work__head_descr, .online__descr_text, .online__form input, .online__form input::placeholder, .online__form_label, .online__form_agree label, .repairs__types_designs_name li, .repairs__request_form_blank_inputs_label, .repairs__request_form_blank_inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text, .steps .team__types_container_descr, .steps .team__members_container_block_person_descr_pos, .steps .team__descr_text, .clients__reviews_container_user_review, .clients .ask__inputs_label, .clients .ask__inputs_label_agree {
+.projects .completed__text, .projects .completed .work__head_descr, .online__descr_text, .online__form input, .online__form input::placeholder, .online__form_label, .online__form_agree label, .repairs__types_designs_name li, .request__inputs_label, .request__inputs_label-agree, .design-project__descr_text, .design-project__types_designs_name li, .steps__container_descr_block_text, .team__types_container_descr, .team .persons__descr_pos, .team__descr_text, .clients__reviews_container_user_review, .clients .ask__inputs_label, .clients .ask__inputs_label_agree {
   font-family: "FuturaBookC";
   font-style: normal;
   font-weight: normal;
@@ -314,7 +314,7 @@ header {
   list-style-position: inside;
 }
 
-.repairs__request_advantages_stages_stage_num {
+.request .stages__stage_num {
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: normal;
@@ -324,14 +324,14 @@ header {
   color: #FFFFFF;
 }
 
-.repairs__request_advantages_stages_stage_text {
+.request .stages__stage_text {
   font-family: "FuturaMediumC";
   font-size: 18px;
   line-height: 21px;
   color: #363636;
 }
 
-.repairs__request_form_blank_head {
+.request__form_blank_head {
   font-family: "FuturaDemiC";
   font-style: normal;
   font-weight: 600;
@@ -341,61 +341,42 @@ header {
   color: #FFFFFF;
 }
 
-.repairs__request_form_blank_inputs_label {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.repairs__request_form_blank_inputs_label-agree {
-  font-size: 16px;
-  line-height: 22px;
-}
-
-.repairs__request_form_blank_inputs_button_submit {
-  font-family: "FuturaDemiC";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 18px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
-.repairs__request_form_blank input {
+.request__form_blank input {
   font-family: "FuturaMediumC";
   font-size: 18px;
   line-height: 25px;
   color: #FFFFFF;
 }
 
-.repairs__request_form_blank input::-webkit-input-placeholder {
+.request__form_blank input::-webkit-input-placeholder {
   font-family: "FuturaMediumC";
   font-size: 18px;
   line-height: 25px;
   color: #FFFFFF;
 }
 
-.repairs__request_form_blank input:-ms-input-placeholder {
+.request__form_blank input:-ms-input-placeholder {
   font-family: "FuturaMediumC";
   font-size: 18px;
   line-height: 25px;
   color: #FFFFFF;
 }
 
-.repairs__request_form_blank input::-ms-input-placeholder {
+.request__form_blank input::-ms-input-placeholder {
   font-family: "FuturaMediumC";
   font-size: 18px;
   line-height: 25px;
   color: #FFFFFF;
 }
 
-.repairs__request_form_blank input::placeholder {
+.request__form_blank input::placeholder {
   font-family: "FuturaMediumC";
   font-size: 18px;
   line-height: 25px;
   color: #FFFFFF;
 }
 
-.repairs__request_form_save_text {
+.request__form_save_text {
   font-family: "FuturaDemiC";
   font-style: normal;
   font-weight: 600;
@@ -403,6 +384,25 @@ header {
   line-height: 25px;
   color: #E3B873;
   text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.request__inputs_label {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.request__inputs_label-agree {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.request__inputs_button_submit {
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .styles__container_list_head {
@@ -495,37 +495,37 @@ header {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.steps .team__types_text {
+.team__types_text {
   font-size: 20px;
   line-height: 28px;
   color: #FFFFFF;
 }
 
-.steps .team__types_container_descr {
+.team__types_container_descr {
   font-size: 20px;
   line-height: 27px;
   text-align: center;
 }
 
-.steps .team__members_container_block_person_descr_name {
+.team .persons__descr_name {
   font-size: 18px;
   line-height: 25px;
   color: #181818;
 }
 
-.steps .team__members_container_block_person_descr_pos {
+.team .persons__descr_pos {
   font-size: 18px;
   line-height: 26px;
   color: #959595;
 }
 
-.steps .team__members_container_block_person_exp {
+.team .persons__exp {
   font-size: 13px;
   line-height: 20px;
   color: #FFFFFF;
 }
 
-.steps .team__descr_text {
+.team__descr_text {
   font-size: 20px;
   line-height: 34px;
   color: #363636;
@@ -735,6 +735,18 @@ nav .nav__menu-tel_tel:hover {
 }
 
 .online__form_button_submit:hover {
+  background: #ecce9e;
+}
+
+.request__inputs_button_submit {
+  cursor: pointer;
+  background: #E3B873;
+  -webkit-box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+          box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+  border-radius: 2px;
+}
+
+.request__inputs_button_submit:hover {
   background: #ecce9e;
 }
 
@@ -1407,7 +1419,7 @@ input {
       flex-wrap: nowrap;
 }
 
-.request_advantages {
+.request__advantages {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1422,10 +1434,9 @@ input {
   width: 54.09%;
   max-width: 779px;
   height: 642px;
-  margin-bottom: 34px;
 }
 
-.request_advantages_circle {
+.request__advantages_circle {
   position: absolute;
   left: -181px;
   width: 636px;
@@ -1436,13 +1447,13 @@ input {
   border: 3px solid transparent;
 }
 
-.request_advantages_circle svg {
+.request__advantages_circle svg {
   position: relative;
   margin-left: 150px;
   bottom: 40px;
 }
 
-.request_advantages_stages {
+.request .stages {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1462,7 +1473,7 @@ input {
   z-index: 1;
 }
 
-.request_advantages_stages_stage {
+.request .stages__stage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1476,7 +1487,7 @@ input {
   background: #fff;
 }
 
-.request_advantages_stages_stage_num {
+.request .stages__stage_num {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1495,59 +1506,24 @@ input {
   border-radius: 30px;
 }
 
-.request_advantages_stages_stage .text-2,
-.request_advantages_stages_stage .text-3 {
+.request .stages__stage .text-2,
+.request .stages__stage .text-3 {
   width: auto;
   max-width: 86%;
 }
 
-.request_advantages_stages_stage_text {
+.request .stages__stage_text {
   width: 86%;
 }
 
-.request_advantages_stages .stage-2,
-.request_advantages_stages .stage-3 {
+.request .stages .stage-2,
+.request .stages .stage-3 {
   -ms-flex-item-align: start;
       align-self: flex-start;
   margin-left: 74px;
 }
 
-.request_form {
-  width: 509px;
-  height: 506px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.request_form_blank {
-  width: 509px;
-  height: 506px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: #131313;
-}
-
-.request_form_blank_head {
-  margin-top: 28px;
-  width: 270px;
-}
-
-.request_form_blank_inputs {
+.request__inputs {
   width: 406px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1559,13 +1535,13 @@ input {
           align-items: center;
 }
 
-.request_form_blank_inputs_button_submit {
+.request__inputs_button_submit {
   width: 213px;
   height: 51px;
   border: none;
 }
 
-.request_form_blank_inputs_name, .request_form_blank_inputs_phone, .request_form_blank_inputs_email {
+.request__inputs_name, .request__inputs_phone, .request__inputs_email {
   width: 406px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1574,39 +1550,74 @@ input {
       flex-wrap: wrap;
 }
 
-.request_form_blank_inputs_name_agree, .request_form_blank_inputs_phone_agree, .request_form_blank_inputs_email_agree {
+.request__inputs_name_agree, .request__inputs_phone_agree, .request__inputs_email_agree {
   width: 406px;
 }
 
-.request_form_blank_inputs_phone, .request_form_blank_inputs_email {
+.request__inputs_phone, .request__inputs_email {
   margin-top: 48px;
 }
 
-.request_form_blank_inputs_label {
+.request__inputs_label {
   width: 406px;
 }
 
-.request_form_blank_inputs_label-agree {
+.request__inputs_label-agree {
   width: 406px;
   margin-left: 8.62px;
 }
 
-.request_form_blank_inputs input[type="text"], .request_form_blank_inputs input[type="text"], .request_form_blank_inputs input[type="email"] {
+.request__inputs input[type="text"], .request__inputs input[type="text"], .request__inputs input[type="email"] {
   width: 406px;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   background: #131313;
 }
 
-.request_form_blank_inputs_button {
+.request__inputs_button {
   margin: 39px 0px 27px 195px;
 }
 
-.request_form_blank_inputs_agree {
+.request__inputs_agree {
   margin-top: 16px;
 }
 
-.request_form_save {
+.request__form {
+  width: 509px;
+  height: 506px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.request__form_blank {
+  width: 509px;
+  height: 506px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #131313;
+}
+
+.request__form_blank_head {
+  margin-top: 28px;
+  width: 270px;
+}
+
+.request__form_save {
   margin-top: 38.44px;
   width: 100%;
   display: -webkit-box;
@@ -1619,7 +1630,7 @@ input {
           align-items: center;
 }
 
-.request_form_save_circle {
+.request__form_save_circle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1636,11 +1647,12 @@ input {
   background: #E3B873;
 }
 
-.request_form_save_text {
+.request__form_save_text {
   width: 220px;
 }
 
 .styles {
+  margin-top: 220px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1683,6 +1695,10 @@ input {
 
 .styles__container_list_button:not(:last-child) {
   margin-bottom: 22px;
+}
+
+.styles__images {
+  max-height: 900px;
 }
 
 .styles__images_sample {
@@ -1853,7 +1869,6 @@ input {
 }
 
 .steps {
-  height: 1220px;
   padding-top: 429px;
   background: #131313;
 }
@@ -1975,12 +1990,13 @@ input {
   margin-top: 20px;
 }
 
-.steps .team {
+.team {
   position: relative;
-  margin-top: 95px;
+  padding-top: 40px;
+  background: linear-gradient(to bottom, #131313 0%, #131313 500px, #fff 500px, #fff 100%);
 }
 
-.steps .team__container {
+.team__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1992,7 +2008,7 @@ input {
           justify-content: center;
 }
 
-.steps .team__types {
+.team__types {
   height: 725px;
   margin-top: 148px;
   display: -webkit-box;
@@ -2005,7 +2021,7 @@ input {
       flex-wrap: wrap;
 }
 
-.steps .team__types_container {
+.team__types_container {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2017,12 +2033,12 @@ input {
       flex-wrap: wrap;
 }
 
-.steps .team__types_container_descr {
+.team__types_container_descr {
   width: 450px;
   margin-top: 24px;
 }
 
-.steps .team__types_text {
+.team__types_text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2034,7 +2050,7 @@ input {
           justify-content: center;
 }
 
-.steps .team__types_text_img {
+.team__types_text_img {
   margin-top: 12px;
   width: 115px;
   -webkit-box-align: center;
@@ -2048,14 +2064,14 @@ input {
   display: flex;
 }
 
-.steps .team__types_text_img_line {
+.team__types_text_img_line {
   background: #E3B873;
   border-radius: 30px;
   height: 1.54px;
   width: 32px;
 }
 
-.steps .team__members {
+.team__members {
   margin: 80px 205px 0px 206px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2065,7 +2081,11 @@ input {
           justify-content: space-between;
 }
 
-.steps .team__members_container_block_person {
+.team__members_container {
+  position: relative;
+}
+
+.team__members .persons {
   position: relative;
   left: 20px;
   bottom: 86px;
@@ -2073,7 +2093,7 @@ input {
   background: #fff;
 }
 
-.steps .team__members_container_block_person_descr {
+.team__members .persons__descr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2084,19 +2104,19 @@ input {
           justify-content: center;
 }
 
-.steps .team__members_container_block_person_descr_name {
+.team__members .persons__descr_name {
   margin-top: 22px;
   width: 100%;
   text-align: center;
 }
 
-.steps .team__members_container_block_person_descr_pos {
+.team__members .persons__descr_pos {
   margin-bottom: 20px;
   width: 100%;
   text-align: center;
 }
 
-.steps .team__members_container_block_person_exp {
+.team__members .persons__exp {
   height: 44px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2110,7 +2130,29 @@ input {
   background: #E3B873;
 }
 
-.steps .team__descr {
+.team .member-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: -35px;
+  top: -35px;
+  background-color: #E3B873;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+          box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.team__descr {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2122,7 +2164,7 @@ input {
           justify-content: center;
 }
 
-.steps .team__descr_line {
+.team__descr_line {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2132,14 +2174,14 @@ input {
           justify-content: center;
 }
 
-.steps .team__descr_line_hor {
+.team__descr_line_hor {
   width: 55px;
   height: 1.54px;
   background: #E3B873;
   border-radius: 30px;
 }
 
-.steps .team__descr_text {
+.team__descr_text {
   margin-top: 17px;
   width: 560px;
   text-align: center;
@@ -2155,7 +2197,6 @@ input {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 460px;
 }
 
 .clients__container {
@@ -2357,7 +2398,7 @@ input {
   width: 520px;
 }
 
-.clients .ask__inputs_name, .clients .ask__inputs_phone, .clients .ask__inputs_questions {
+.clients .ask__inputs_name, .clients .ask__inputs_phone, .clients .ask__inputs_question {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,4 +1,5 @@
 $link-color: #E3B873;
+
 nav {
     .nav__menu {
         &_link:hover {
@@ -21,6 +22,7 @@ nav {
         }
     }
 }
+
 .instagram__link:hover {
     background: lighten(#131313, 10%);
     color: #fff;
@@ -28,6 +30,7 @@ nav {
         background: #fff;
     }
 }
+
 .description__buttons {
     &_calculate {
         margin-right: 20px;
@@ -51,6 +54,7 @@ nav {
         }
     }
 }
+
 .scroll-down {
     &:hover {
         background: lighten(#131313, 10%);
@@ -59,6 +63,7 @@ nav {
         color: $link-color;
     }
 }
+
 .projects {
     .completed__slider {
         &_arrow-left, &_arrow-right {
@@ -87,6 +92,7 @@ nav {
         }
     }
 }
+
 .online {
     &__form_button_submit {
         cursor: pointer;
@@ -98,19 +104,22 @@ nav {
         }
     }
 }
-// &__request_form_blank_inputs_button_submit {
-//     cursor: pointer;
-//     background: $link-color;
-//     box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
-//     border-radius: 2px;
-//     &:hover {
-//         background: lighten($link-color, 10%);
-//     }
-// }
+
+.request__inputs_button_submit {
+    cursor: pointer;
+    background: $link-color;
+    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 2px;
+    &:hover {
+        background: lighten($link-color, 10%);
+    }
+}
+
 .styles__container_list_button_link:hover {
     padding-bottom: 4px;
     border-bottom: 1px solid $link-color;
 }
+
 .steps__container {
     &_descr_arrows {
         &_left, &_right {
@@ -136,6 +145,7 @@ nav {
         }
     }
 }
+
 .ask__inputs_button_submit {
     cursor: pointer;
     background: $link-color;
@@ -145,6 +155,7 @@ nav {
         background: lighten($link-color, 10%);
     }
 }
+
 .address__container_info_social_link:hover {
     background: lighten($link-color, 10%);
 }

@@ -393,7 +393,7 @@ input {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    &_advantages {
+    &__advantages {
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -402,7 +402,6 @@ input {
         width: 54.09%;
         max-width: 779px;
         height: 642px;
-         margin-bottom: 34px;
         &_circle {
             position: absolute;
             left: -181px;
@@ -419,49 +418,92 @@ input {
                 bottom: 40px;
             }
         }
-        &_stages {
+    }
+    .stages {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 54.30%;
+        max-width: 423px;
+        height: 475px;
+        z-index: 1;
+        &__stage {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-            flex-direction: column;
-            width: 54.30%;
-            max-width: 423px;
-            height: 475px;
-            z-index: 1;
-            &_stage {
+            height: 50px;
+            background: #fff;
+            &_num {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 50px;
-                background: #fff;
-                &_num {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 41.76px;
-                    height: 41.76px;
-                    margin-right: 14px;
-                    background: #E3B873;
-                    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
-                    border-radius: 30px;
-                }
-                .text-2,
-                .text-3 {
-                    width: auto;
-                    max-width: 86%;
-                }
-                &_text {
-                    width: 86%;
-                }
+                width: 41.76px;
+                height: 41.76px;
+                margin-right: 14px;
+                background: #E3B873;
+                box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+                border-radius: 30px;
             }
-            .stage-2,
-            .stage-3 {
-                align-self: flex-start;
-                margin-left: 74px;
+            .text-2,
+            .text-3 {
+                width: auto;
+                max-width: 86%;
+            }
+            &_text {
+                width: 86%;
             }
         }
+        .stage-2,
+        .stage-3 {
+            align-self: flex-start;
+            margin-left: 74px;
+        }
     }
-    &_form {
+    &__inputs {
+        width: 406px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        &_button {
+            &_submit {
+                width: 213px;
+                height: 51px;
+                border: none;
+            }
+        }
+        &_name, &_phone, &_email {
+            width: 406px;
+            display: flex;
+            flex-wrap: wrap;
+            &_agree {
+                width: 406px;
+            }
+        }
+        &_phone, &_email {
+            margin-top: 48px;
+        }
+        &_label {
+            width: 406px;
+        }
+        &_label-agree {
+            width: 406px;
+            margin-left: 8.62px;
+        }
+        input[type = "text"], input[type = "text"], input[type = "email"] {
+            width: 406px;
+            border: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+            background: #131313;
+        }
+        &_button {
+            margin: 39px 0px 27px 195px;
+        }
+        &_agree {
+            margin-top: 16px;
+        }
+    }
+    &__form {
         width: 509px;
         height: 506px;
         display: flex;
@@ -478,49 +520,6 @@ input {
             &_head {
                 margin-top: 28px;
                 width: 270px;
-            }
-            &_inputs {
-                width: 406px;
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                &_button {
-                    &_submit {
-                        width: 213px;
-                        height: 51px;
-                        border: none;
-                    }
-                }
-                &_name, &_phone, &_email {
-                    width: 406px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    &_agree {
-                        width: 406px;
-                    }
-                }
-                &_phone, &_email {
-                    margin-top: 48px;
-                }
-                &_label {
-                    width: 406px;
-                }
-                &_label-agree {
-                    width: 406px;
-                    margin-left: 8.62px;
-                }
-                input[type = "text"], input[type = "text"], input[type = "email"] {
-                    width: 406px;
-                    border: none;
-                    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-                    background: #131313;
-                }
-                &_button {
-                    margin: 39px 0px 27px 195px;
-                }
-                &_agree {
-                    margin-top: 16px;
-                }
             }
         }
         &_save {
@@ -547,6 +546,7 @@ input {
 }
 
 .styles {
+    margin-top: 220px;
     display: flex;
     height: 864px;
     background: linear-gradient(120.96deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%), url("assets/stylesbg.png");
@@ -576,6 +576,7 @@ input {
         }
     }
     &__images {
+        max-height: 900px;
         &_sample {
             position: relative;
             &:nth-child(1) {
@@ -595,6 +596,7 @@ input {
         }
     }
 }
+
 .design-project {
     height: 470px;
     &__container {
@@ -687,8 +689,8 @@ input {
         }
     }
 }
+
 .steps {
-    height: 1220px;
     padding-top: 429px;
     background: #131313;
     &__container {
@@ -769,117 +771,134 @@ input {
             }
         }
     }
-    .team {
-        position: relative;
-        margin-top: 95px;
-        &__container {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            justify-content: center;
-        }
-        &__types {
-            height: 725px;
-            margin-top: 148px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            &_container {
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                flex-wrap: wrap;
-                &_descr {
-                    width: 450px;
-                    margin-top: 24px;
-                }
-            }
-            &_text {
-                display: flex;
-                flex-wrap: wrap;
-                width: 195px;
-                justify-content: center;
-                &_img {
-                    margin-top: 12px;
-                    width: 115px;
-                    align-items: center;
-                    justify-content: space-between;
-                    display: flex;
-                    &_line {
-                        background: #E3B873;
-                        border-radius: 30px;
-                        height: 1.54px;
-                        width: 32px;
-                    }
-                }
-            }
-        }
-        &__members {
-            margin: 80px 205px 0px 206px;
-            display: flex;
-            justify-content: space-between;
-            &_container_block {
-                &_person {
-                    position: relative;
-                    left: 20px;
-                    bottom: 86px;
-                    width: 233px;
-                    background: #fff;
-                    &_descr {
-                        display: flex;
-                        flex-wrap: wrap;
-                        justify-content: center;
-                        &_name {
-                            margin-top: 22px;
-                            width: 100%;
-                            text-align: center;
-                        }
-                        &_pos {
-                            margin-bottom: 20px;
-                            width: 100%;
-                            text-align: center;
-                        }
-                    }
-                    &_exp {
-                        height: 44px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        background: #E3B873;
-                    }
-                }
-            }
-        }
-        &__descr {
+}
+
+.team {
+    position: relative;
+    padding-top: 40px;
+    background: linear-gradient(to bottom, #131313 0%, #131313 500px, #fff 500px, #fff 100%);
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    &__types {
+        height: 725px;
+        margin-top: 148px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &_container {
             width: 100%;
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
-            &_line {
-                width: 100%;
+            flex-wrap: wrap;
+            &_descr {
+                width: 450px;
+                margin-top: 24px;
+            }
+        }
+        &_text {
+            display: flex;
+            flex-wrap: wrap;
+            width: 195px;
+            justify-content: center;
+            &_img {
+                margin-top: 12px;
+                width: 115px;
+                align-items: center;
+                justify-content: space-between;
                 display: flex;
-                justify-content: center;
-                &_hor {
-                    width: 55px;
-                    height: 1.54px;
+                &_line {
                     background: #E3B873;
                     border-radius: 30px;
+                    height: 1.54px;
+                    width: 32px;
                 }
-            }
-            &_text {
-                margin-top: 17px;
-                width: 560px;
-                text-align: center;
             }
         }
     }
+    &__members {
+        margin: 80px 205px 0px 206px;
+        display: flex;
+        justify-content: space-between;
+        &_container {
+            position: relative;
+        }
+        .persons {
+            position: relative;
+            left: 20px;
+            bottom: 86px;
+            width: 233px;
+            background: #fff;
+            &__descr {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                &_name {
+                    margin-top: 22px;
+                    width: 100%;
+                    text-align: center;
+                }
+                &_pos {
+                    margin-bottom: 20px;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            &__exp {
+                height: 44px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #E3B873;
+            }
+        }
+    }
+    .member-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: -35px;
+        top: -35px;
+        background-color: #E3B873;
+        background-position: center center;
+        background-repeat: no-repeat;
+        box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+    }
+    &__descr {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &_line {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            &_hor {
+                width: 55px;
+                height: 1.54px;
+                background: #E3B873;
+                border-radius: 30px;
+            }
+        }
+        &_text {
+            margin-top: 17px;
+            width: 560px;
+            text-align: center;
+        }
+    }
 }
+
 .clients {
     height: 1190px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 460px;
     &__container {
         display: flex;
         flex-wrap: wrap;
@@ -993,7 +1012,7 @@ input {
             flex-wrap: wrap;
             justify-content: space-between;
             width: 520px;
-            &_name, &_phone, &_questions {
+            &_name, &_phone, &_question {
                 display: flex;
                 flex-wrap: wrap;
             }
@@ -1037,6 +1056,7 @@ input {
         }
     }
 }
+
 .address {
     height: 954px;
     background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url("assets/mapbg.png");
