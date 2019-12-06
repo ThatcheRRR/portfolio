@@ -1,0 +1,616 @@
+@font-face {
+    font-family: "FuturaDemiC";
+    font-weight: normal;
+    font-style: normal;
+    src: url("assets/FuturaDemiC.woff") format("woff");
+}
+
+@font-face {
+    font-family: "FuturaBookC";
+    font-weight: normal;
+    font-style: normal;
+    src: url("assets/FuturaBookC.woff") format("woff");
+}
+
+@font-face {
+    font-family: "FuturaMediumC";
+    font-weight: normal;
+    font-style: normal;
+    src: url("assets/FuturaMediumC.woff") format("woff");
+}
+
+@font-face {
+    font-family: "ProximaNova";
+    font-weight: normal;
+    font-style: normal;
+    src: url("assets/ProximaNova-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "YesevaOne";
+    font-weight: normal;
+    font-style: normal;
+    src: url("assets/YesevaOne.woff") format("woff");
+}
+
+%font-option {
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+%font-project-head {
+    font-family: "YesevaOne";
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+%font-project-descr {
+    font-family: "FuturaBookC";
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+%font-styles-links {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+h2 {
+    font-weight: normal; 
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+}
+
+.nav {
+    &__menu {
+        &_link {
+            font-family: "FuturaBookC";
+            @extend %font-option;
+            color: #FFFFFF;
+        }
+        &-tel_tel {
+            text-decoration: underline;
+            color: #E3B873;
+            font-family: "FuturaDemiC";
+        }
+        &-button_button {
+            font-family: "FuturaDemiC";
+            font-size: 13px;
+            line-height: 15px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+    .logo__text {
+        font-family: "FuturaDemiC";
+        @extend %font-option;
+        color: #E3B873;
+    }
+}
+
+.instagram__link {
+    @extend %font-option;
+    color: #E3B873;
+    font-family: "FuturaDemiC";
+    font-style: normal;
+    font-weight: 600;
+}
+
+.description {
+    font-family: "YesevaOne";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    color: #FFFFFF;
+    &__repair {
+        h2 {
+            font-size: 40px;
+            line-height: 53px;
+        }
+        text-transform: uppercase;
+        &_city {
+            color: #E3B873;
+        }
+    }
+    &__cost {
+        font-family: "FuturaBookC";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    &__buttons {
+        &_calculate, &_submit {
+            font-family: "FuturaDemiC";
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }   
+}
+
+.scroll-down__button {
+    font-family: "YesevaOne";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.projects {
+    .completed {
+        &__par {
+            font-size: 27px;
+            line-height: 37px;
+            letter-spacing: -0.07em;
+            @extend %font-project-head;
+            h2 {
+                font-size: 27px;
+                line-height: 37px;
+            }
+        }
+        &__text {
+            @extend %font-project-descr;
+            font-size: 18px;
+            line-height: 29px;
+        }
+        .work__head {
+            font-size: 18px;
+            line-height: 25px;
+            @extend %font-project-head;
+            &_descr {
+                @extend %font-project-descr;
+                font-size: 15px;
+                line-height: 20px;
+            }
+        }
+    }
+    .cities__city_link {
+        @extend %font-project-head;
+        color: rgba(255, 255, 255, 0.3);
+        &:hover {
+            color: #E3B873;
+        }
+    }
+}
+
+.online {
+    &__text {
+        @extend %font-project-head;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+        h2 {
+            font-size: 20px;
+            line-height: 28px;   
+        }
+    }
+    &__descr {
+        &_text {
+            @extend %font-project-descr;
+            color: #363636;
+            font-size: 20px;
+            line-height: 34px;
+        }
+    }
+    &__form {
+        input {
+            @extend %font-project-descr;
+            color: #363636;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        input::placeholder {
+            @extend %font-project-descr;
+            color: #363636;
+            font-size: 18px;
+            line-height: 24px;  
+        }
+        &_label {
+            @extend %font-project-descr;
+            color: rgba(54, 54, 54, 0.5);
+        }
+        &_button_submit {
+            font-family: "FuturaDemiC";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &_agree {
+            label {
+                @extend %font-project-descr;
+                font-size: 16px;
+                line-height: 22px;
+                color: #181818;
+            }
+        }
+    }
+}
+
+.repairs {
+    &__types {
+        &_text {
+            @extend %font-project-head;
+            font-size: 20px;
+            line-height: 28px;
+            color: #181818;
+        }
+        &_designs_name {
+            &_img {
+                &_head {
+                    font-family: "YesevaOne";
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #363636;
+                }
+            }
+            &_price {
+                @extend %font-project-head;
+                font-size: 18px;
+                line-height: 25px;
+                color: #FFFFFF;
+            }
+            li {
+                @extend %font-project-descr;
+                line-height: 25px;
+                color: #959595;
+                list-style-position: inside;
+            }
+        }
+    }
+}
+
+.request {
+    .stages__stage {
+        &_num {
+            font-family: "Yeseva One";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        &_text {  
+            font-family: "FuturaMediumC";
+            font-size: 18px;
+            line-height: 21px;
+            color: #363636;
+        }
+    }
+    &__form {
+        &_blank {
+            &_head {
+                font-family: "FuturaDemiC";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 25px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            input {
+                font-family: "FuturaMediumC";
+                font-size: 18px;
+                line-height: 25px;
+                color: #FFFFFF
+            }
+            input::placeholder {
+                font-family: "FuturaMediumC";
+                font-size: 18px;
+                line-height: 25px;
+                color: #FFFFFF
+            }
+        }
+        &_save {
+            &_text {
+                font-family: "FuturaDemiC";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 25px;
+                color: #E3B873;
+                text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+            }
+        }
+    }
+    &__inputs {
+        &_label {
+            @extend %font-project-descr;
+            color: rgba(255, 255, 255, 0.5);
+            &-agree {
+                @extend %font-project-descr;
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+        &_button_submit {
+            font-family: "FuturaDemiC";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 18px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.styles__container {
+    &_list {
+        &_head {
+            @extend %font-project-head;
+            font-size: 27px;
+            line-height: 37px;
+        }
+        &_button_link {
+            @extend %font-styles-links;
+            &:hover {
+                color: #E3B873;
+            }   
+        }
+    }
+}
+
+.design-project {
+    &__descr {
+        &_text {
+            @extend %font-project-descr;
+            color: #363636;
+            font-size: 20px;
+            line-height: 34px;
+        }
+    }
+    &__types {
+        &_container_descr {
+            font-family: "FuturaBookC";
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            color: #363636;
+            
+        }
+        &_text {
+            @extend %font-project-head;
+            font-size: 20px;
+            line-height: 28px;
+            color: #181818;
+        }
+        &_designs_name {
+            &_img {
+                &_head {
+                    font-family: "YesevaOne";
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #363636;
+                }
+            }
+            &_price {
+                @extend %font-project-head;
+                font-size: 18px;
+                line-height: 25px;
+                color: #FFFFFF;
+            }
+            li {
+                @extend %font-project-descr;
+                line-height: 25px;
+                color: #959595;
+                list-style-position: inside;
+            }
+        }
+    }
+}
+
+.steps {
+    &__container {
+        &_descr {
+            &_working {
+                &_par {
+                    font-family: "FuturaDemiC";
+                    font-size: 15px;
+                    line-height: 21px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+                &_header {
+                    @extend %font-project-head;
+                    font-size: 27px;
+                    line-height: 37px;
+                }
+            }
+            &_block {
+                &_page {
+                    @extend %font-project-head;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                }
+                &_header {
+                    @extend %font-project-head;
+                    font-size: 15px;
+                    line-height: 23px;
+                }
+                &_text {
+                    @extend %font-project-descr;
+                }
+            }
+        }
+        &_works_step_link {
+            &_page {
+                font-family: "YesevaOne";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.3);
+                border-bottom: 1px solid #E3B873;
+            }
+            &_descr {
+                font-family: "FuturaBookC";
+                font-size: 15px;
+                line-height: 18px;
+                color: rgba(255, 255, 255, 0.3);
+            }
+        }
+    }
+}
+
+.team {
+    &__types {
+        &_text {
+            @extend %font-project-head;
+            font-size: 20px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+        &_container_descr {
+            @extend %font-project-descr;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+        }
+    }
+    .persons {
+        &__descr {
+            &_name {
+                @extend %font-project-head;
+                font-size: 18px;
+                line-height: 25px;
+                color: #181818;
+            }
+            &_pos {
+                @extend %font-project-descr;
+                font-size: 18px;
+                line-height: 26px;
+                color: #959595;
+            }
+        }
+        &__exp {
+            @extend %font-project-head;
+            font-size: 13px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+    }
+    &__descr_text {
+        @extend %font-project-descr;
+        font-size: 20px;
+        line-height: 34px;
+        color: #363636;
+    }
+}
+
+.clients {
+    &__types {
+        &_text {
+            @extend %font-project-head;
+            font-size: 20px;
+            line-height: 28px;
+            color: #181818;
+        }
+        &_container_descr {
+            font-family: "FuturaBookC";
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            color: #181818;    
+        }
+    }
+    &__reviews_container_user {
+        &_name {
+            @extend %font-project-head;
+            font-size: 18px;
+            line-height: 23px;
+            color: #181818;
+        }
+        &_review {
+            @extend %font-project-descr;
+            font-size: 15px;
+            line-height: 180%;
+            color: #959595;
+        }
+        &_type {
+            @extend %font-project-head;
+            font-size: 17px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+    }
+    .ask {
+        &__head {
+            @extend %font-project-head;
+            font-size: 20px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+        &__inputs {
+            &_label {
+                @extend %font-project-descr;
+                color: rgba(255, 255, 255, 0.5);
+                &_agree {
+                    @extend %font-project-descr;
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+            }
+            &_button_submit {
+                font-family: "FuturaDemiC";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 18px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+        input {
+            font-family: "FuturaMediumC";
+            font-size: 18px;
+            line-height: 25px;
+            color: #FFFFFF
+        }
+        input::placeholder {
+            font-family: "FuturaMediumC";
+            font-size: 18px;
+            line-height: 25px;
+            color: #FFFFFF
+        }
+    }
+}
+
+.address__container_info_descr {
+    font-family: "YesevaOne";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
