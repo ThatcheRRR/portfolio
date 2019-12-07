@@ -1,6 +1,9 @@
 const showButton = document.querySelector("body > main > section.education > div.education__header > div.education__header_arrow > svg");
 const edu = document.querySelector("body > main > section.education > div.education__descr");
 const head = document.querySelector("body > main > section.education > div.education__header");
+const swiperBtn = document.querySelector('.swiper-button');
+const swiperBtnDescr = document.querySelector('.swiper-top_panel p');
+const swiperDescr = document.querySelectorAll('.card-description');
 
 window.onload = () => {
     edu.classList.add('hidden');
@@ -23,4 +26,13 @@ head.addEventListener('click', () => {
         showButton.style.transform = 'rotate(180deg)';
     }
     edu.classList.toggle('hidden');
+});
+
+swiperBtn.addEventListener('click', function() {  
+    swiperDescr.forEach(el => el.classList.toggle('visible'));
+    if (swiperBtnDescr.innerHTML === "Show description") {
+        swiperBtnDescr.innerHTML = "Hide description";
+    } else {
+        swiperBtnDescr.innerHTML = "Show description";
+    }
 });

@@ -140,7 +140,7 @@ header {
         color: #FFFFFF;
     }
     &__buttons {
-        &_calculate, &_submit {
+        &_calculate, &_submit, &_application {
             font-family: "FuturaDemiC";
             font-size: 13px;
             line-height: 15px;
@@ -613,4 +613,176 @@ header {
     line-height: 28px;
     text-transform: uppercase;
     color: #E3B873;
+}
+
+@media screen and (max-width: 375px) {
+    .nav {
+        .logo__text {
+            font-size: 12px;
+            line-height: 14px;
+            font-weight: 600;
+        }
+        .nav__menu-tel_tel {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+            color: #FFFFFF;
+        }
+    }
+
+    .description {
+        &__repair {
+            & h2 {
+                font-size: 23px;
+                line-height: 132.83%;
+            }
+        }
+        &__cost {
+            font-size: 18px;
+            line-height: 135.84%;
+        }
+    }
+
+    .projects {
+        .completed {
+            &__par h2 {
+                font-size: 22px;
+                line-height: 138.6%;
+                text-align: center;
+            }
+            &__text {
+                font-size: 14px;
+                line-height: 158.48%;
+                text-align: center;
+            }
+            .work__head {
+                font-size: 14px;
+                line-height: 138.6%;
+            }
+        }
+    }
+
+    .online {
+        &__text {
+            width: 200px !important;
+            h2 {
+                font-size: 22px;
+                line-height: 138.6%;
+            }
+        }
+        &__descr_text {
+            padding-left: 18px;
+            padding-right: 18px;
+            font-size: 14px;
+            line-height: 169.8%;
+            color: #FFFFFF;
+        }
+        &__form {
+            input {
+                color: #FFFFFF !important;
+                font-size: 18px;
+                line-height: 24px;
+            }
+            input::placeholder {
+                font-size: 18px;
+                line-height: 138.72%;
+                color: #FFFFFF !important;
+            }
+            &_label {
+                font-size: 15px;
+                line-height: 20px;
+                color: rgba(255, 255, 255, 0.5);
+            }
+            &_agree-mob_label {
+                font-family: "FuturaBookC";
+                font-size: 16px;
+                line-height: 22px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .repairs {
+        &__types {
+            &_text {
+                font-size: 22px;
+                line-height: 138.6%;
+            }
+        }
+        li {
+            font-size: 13px;
+            line-height: 22.07px;
+        }
+    }
+
+    .styles__container {
+        &_list_head {
+            text-align: center;
+        }
+    }
+
+    .design-project {
+        &__types {
+            &_text {
+                color: #FFFFFF;
+                font-size: 22px;
+                line-height: 138.6%;
+            }
+            &_container_descr {
+                text-align: center;
+                margin-left: 55px;
+                margin-right: 55px;
+                font-size: 15px;
+                line-height: 135.84%;
+                color: #FFFFFF;
+            }
+        }
+        &-mob__types_designs_name {
+            &_img_head {
+                &_container {
+                    font-family: "YesevaOne";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 138.6%;
+                    color: #363636;
+                }
+                ul {
+                    font-family: "FuturaBookC";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 169.8%;
+                    color: #959595;
+                }
+            }
+            &_price {
+                font-family: "YesevaOne";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .team {
+        &__types {
+            &_text {
+                font-size: 22px;
+                line-height: 138.6%;
+            }
+            &_container_descr {
+                font-size: 15px;
+                line-height: 135.84%;
+            }
+        }
+    }
+
+    .address__container_info_descr {
+        font-size: 18px;
+        line-height: 138.6%;
+    }
 }

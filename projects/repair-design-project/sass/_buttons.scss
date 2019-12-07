@@ -43,7 +43,7 @@ nav {
             background-color: lighten($link-color, 10%);
         }
     }
-    &_submit {
+    &_submit, &_application {
         width: 207px;
         height: 51px;
         border: 1px solid #FFFFFF;
@@ -158,4 +158,35 @@ nav {
 
 .address__container_info_social_link:hover {
     background: lighten($link-color, 10%);
+}
+
+.swipe-left {
+    display: none;
+}
+
+@media (max-width: 375px) {
+    .projects {
+        .completed__slider {
+            display: none !important;
+        }
+        &__works_designs {
+            &_slider {
+                display: none !important;
+                &-right, &-left {
+                    top: 916px;
+                    width: 36px;
+                    height: 36px;
+                    position: absolute;
+                    background: $link-color;
+                    border-radius: 50%;
+                }
+                &-right {
+                    left: 310px;
+                }
+                &-left {
+                    left: 33px;
+                }
+            }
+        }
+    }
 }
