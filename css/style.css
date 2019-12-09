@@ -107,10 +107,6 @@ li {
     font-size: 24px;
 }
 
-li:not(:first-child) {
-    margin-top: 20px;
-}
-
 .projects h2 {
     padding-left: 15px;
 }

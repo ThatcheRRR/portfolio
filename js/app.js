@@ -4,6 +4,8 @@ const head = document.querySelector("body > main > section.education > div.educa
 const swiperBtn = document.querySelector('.swiper-button');
 const swiperBtnDescr = document.querySelector('.swiper-top_panel p');
 const swiperDescr = document.querySelectorAll('.card-description');
+const card = document.querySelectorAll('.card');
+const h = document.querySelector('h2');
 
 window.onload = () => {
     edu.classList.add('hidden');
@@ -36,3 +38,13 @@ swiperBtn.addEventListener('click', function() {
         swiperBtnDescr.innerText = "Show description";
     }
 });
+
+if (parseInt(getComputedStyle(document.body).width) <= 720) {
+    card[0].onclick = () => {
+        location.href = 'project1.html';
+    }
+    
+    card[1].onclick = () => {
+        location.href = 'project1.html';
+    }
+}
