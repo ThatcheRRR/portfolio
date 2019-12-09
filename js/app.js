@@ -30,9 +30,9 @@ head.addEventListener('click', () => {
 
 swiperBtn.addEventListener('click', function() {  
     swiperDescr.forEach(el => el.classList.toggle('visible'));
-    if (swiperBtnDescr.innerHTML === "Show description") {
-        swiperBtnDescr.innerHTML = "Hide description";
+    if (swiperBtnDescr.innerText === "Show description") {
+        swiperBtnDescr.innerText = "Hide description";
     } else {
-        swiperBtnDescr.innerHTML = "Show description";
+        swiperBtnDescr.innerText = "Show description";
     }
 });

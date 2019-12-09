@@ -22,6 +22,12 @@ a:hover img{
     filter: grayscale(0);
 }
 
+.card-image a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
 ::selection {
     color: white;
     background-color: black;
@@ -105,11 +111,14 @@ li:not(:first-child) {
     margin-top: 20px;
 }
 
+.projects h2 {
+    padding-left: 15px;
+}
+
 .swiper-container {
     box-sizing: border-box;
     max-width: 1024px;
     padding: 0px 42px;
-    margin: 10px auto;  
     border: 2px solid #000;
     background-color: #fff;
 }
