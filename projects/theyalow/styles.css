@@ -58,7 +58,11 @@
 }
 html {
     margin: 0 auto;
-    width: 1300px;
+    max-width: 1300px;
+    min-width: 640px;
+}
+body {
+    width: 100%
 }
 a {
     text-decoration: none;
@@ -587,10 +591,10 @@ input[type=range]:focus::-ms-fill-upper {
         padding-top: 41px;
     }
 }
-@media (max-width: 640px) {
-    html, header {
+@media screen and (max-width: 640px) {
+    body, header {
         width: 640px;
-        margin: 0 0;
+        margin: 0 auto;
     }
     header {
         height: 62px;

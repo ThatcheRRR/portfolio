@@ -45,6 +45,6 @@ if (parseInt(getComputedStyle(document.body).width) <= 720) {
     }
     
     card[1].onclick = () => {
-        location.href = 'project1.html';
+        location.href = 'project2.html';
     }
 }
