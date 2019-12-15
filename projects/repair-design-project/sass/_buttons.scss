@@ -164,7 +164,7 @@ nav {
     display: none;
 }
 
-@media (max-width: 375px) {
+@media only screen and (max-width: 1024px) {
     .projects {
         .completed__slider {
             display: none !important;
@@ -173,6 +173,7 @@ nav {
             &_slider {
                 display: none !important;
                 &-right, &-left {
+                    display: flex !important;
                     top: 916px;
                     width: 36px;
                     height: 36px;

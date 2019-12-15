@@ -615,7 +615,56 @@ header {
     color: #E3B873;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen and (min-width: 376px) {
+    .design-project {
+        &__types {
+            &_text {
+                color: #181818 !important;
+                font-size: 22px;
+                line-height: 138.6%;
+            }
+            &_container_descr {
+                text-align: center;
+                margin-left: 55px;
+                margin-right: 55px;
+                font-size: 15px;
+                line-height: 135.84%;
+                color: #181818 !important;
+            }
+        }
+        &-mob__types_designs_name {
+            &_img_head {
+                &_container {
+                    font-family: "YesevaOne";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 138.6%;
+                    color: #363636;
+                }
+                ul {
+                    font-family: "FuturaBookC";
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 169.8%;
+                    color: #959595;
+                }
+            }
+            &_price {
+                font-family: "YesevaOne";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
     .nav {
         .logo__text {
             font-size: 12px;
